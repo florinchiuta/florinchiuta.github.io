@@ -12,6 +12,12 @@ html {
 }
 .container{
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
   
 }
 .buffer {
@@ -22,10 +28,17 @@ hr{
   border-width: 3px;
   max-width: 65px;
 }
+.box_textshadow {
+  text-shadow: 2px 2px 0px rgb(255, 255, 255); /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+}
 
-h1{
+.text{
+  text-transform: uppercase;
   font-size: 3rem;
   color: #080202;
+  font-weight: 400;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #424242;
 }
 .btn {
   font-weight: 700;
